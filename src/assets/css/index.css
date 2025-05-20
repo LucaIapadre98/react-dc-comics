@@ -1,0 +1,88 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* PAGE HEADER */
+
+.nav-bar{
+  display:  flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+#page-header .nav-bar img{
+  width: 60px;
+  height: 60px;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+li{
+  list-style-type: none;
+}
+#page-header nav ul li.active{
+  color: hsl(240, 95%, 68%);
+}
+#page-header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* PAGE MAIN */
+#page-content{
+  background-color: black;
+  height: 100px;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: left;
+}
+#page-content h2{
+  color: white;
+  margin-left: 180px;
+}
+#page-function{
+  background-color: hsl(240, 95%, 68%);
+  height: 130px;
+
+}
+#page-function .row{
+  display: flex;
+  margin-left: 100px;
+  padding: 20px 0;
+  
+  justify-content: center;
+}
+.col-1-5{
+  width: calc(100% / 5);
+  display: flex;
+  flex-direction: row;
+}
+#page-function .row img{
+  width: 50px;
+  max-height: 80px;
+}
+#page-function .row #logo-locator{
+  width: 35px;
+  height: 50px;
+}
+#page-function .row #logo-visa{
+  width: 55px;
+  height: 50px;
+}
+#page-function .row h4{
+  color: white;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PAGE FOOTER */
+
+
+

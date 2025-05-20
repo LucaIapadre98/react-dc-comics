@@ -1,3 +1,11 @@
+import Header from "./components/header";
+import Main from "./components/main";
+
 export default function App() {
-  return (<h1>My App</h1>)
+  return (
+  <>
+    <Header />
+    <Main />
+  </>
+  );
 }
