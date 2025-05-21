@@ -45,14 +45,32 @@ li{
   display: flex;
   justify-content: left;
 }
-#page-content .alert{
-  color: white;
+#page-content .alert-info{
+  color: black;
   font-size: 15px;
   text-align: center;
-  border: currentColor 1px solid;
+  border: currentColor 2px solid;
   border-radius: 10px;
-
+  background-color: white;
 }
+#page-content .alert-danger{
+  color: red;
+  font-size: 15px;
+  text-align: center;
+  border: currentColor 2px solid;
+  border-radius: 10px;
+  background-color: #fc9a9a;
+}
+#page-content .alert-success{
+  color: green;
+  font-size: 15px;
+  text-align: center;
+  border: currentColor 2px solid;
+  border-radius: 10px;
+  background-color: #9afcb6;
+}
+
+
 #page-content h2{
   color: white;
   margin-left: 180px;
