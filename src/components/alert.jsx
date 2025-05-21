@@ -11,7 +11,6 @@ export default function Alert({type, children}){
                 <li>Errore: </li>
             </ul>
         </div>
-
     </>;
     return(
     <div className={`alert alert-${type || "type"}`}>{children}</div>
