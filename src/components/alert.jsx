@@ -8,7 +8,7 @@ export default function Alert({type, children}){
         <div className="text-error">
             Testo di errore
             <ul className="ul-error">
-                <li>Errore: </li>
+                <li>Errore:</li>
             </ul>
         </div>
     </>;

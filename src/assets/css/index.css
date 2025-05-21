@@ -89,12 +89,12 @@ li{
 }
 .text-error .ul-error{
   text-align: left;
-  font-size: 14px;
+  font-size: 15px;
   margin: 5px 0;
   padding: 0 25px;
 }
 .text-error .ul-error li{
-  list-style-type: circle;
+  list-style-type: disc;
   margin: 0;
 }
 #page-content h2{
