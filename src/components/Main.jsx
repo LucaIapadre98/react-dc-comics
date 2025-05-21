@@ -1,7 +1,12 @@
+import Alert from "./alert";
 export default function Main (){
-    return (<main>
+    return <main>
         <section id="page-content">
-            <h2> --&gt; Contente goes here! &lt;--</h2>
+            <h2> --&gt; Contente goes here! &lt;--
+                <>
+                <Alert type="info" text="Testo di Alert" />
+                </>
+            </h2>
         </section>
         <section id="page-function">
             <div className="row">
@@ -47,5 +52,5 @@ export default function Main (){
                 </div>
             </div>
         </section>
-    </main>)
+    </main>
 }
