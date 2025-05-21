@@ -73,9 +73,27 @@ li{
   color: red;
   border: currentColor 1px solid;
   background-color: #ffa7a7;
-  border-radius: 10px;
+  border-radius: 20px;
   font-size: 17px;
   text-align: center;
+  padding: 5px;
+}
+.text-error{
+  color: red;
+  border: currentColor 1px solid;
+  background-color: #ffa7a7;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+}
+.text-error .ul-error{
+  text-align: left;
+  font-size: 15px;
+  margin: 5px 0;
+}
+.text-error .ul-error li{
+  list-style-type: circle;
 }
 #page-content h2{
   color: white;
