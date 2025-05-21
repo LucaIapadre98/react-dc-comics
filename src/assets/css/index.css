@@ -47,7 +47,7 @@ li{
 }
 #page-content .alert-info{
   color: black;
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
   border: currentColor 2px solid;
   border-radius: 10px;
@@ -55,7 +55,7 @@ li{
 }
 #page-content .alert-danger{
   color: red;
-  font-size: 15px;
+  font-size: 17px; 
   text-align: center;
   border: currentColor 2px solid;
   border-radius: 10px;
@@ -63,7 +63,7 @@ li{
 }
 #page-content .alert-success{
   color: green;
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
   border: currentColor 2px solid;
   border-radius: 10px;

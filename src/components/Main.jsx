@@ -4,8 +4,8 @@ export default function Main (){
         <section id="page-content">
             <h2> --&gt; Contente goes here! &lt;--
                 <>
-                <Alert type="info" text="Testo di Alert" />
-                </>
+                <Alert type="success">Testo di contenuto</Alert>
+                </> 
             </h2>
         </section>
         <section id="page-function">
