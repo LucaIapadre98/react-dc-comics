@@ -69,6 +69,14 @@ li{
   border-radius: 10px;
   background-color: #9afcb6;
 }
+.messagge-error{
+  color: red;
+  border: currentColor 1px solid;
+  background-color: #ffa7a7;
+  border-radius: 10px;
+  font-size: 17px;
+  text-align: center;
+}
 #page-content h2{
   color: white;
   margin-left: 180px;

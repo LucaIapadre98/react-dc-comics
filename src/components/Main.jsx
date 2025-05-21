@@ -1,10 +1,10 @@
 import Alert from "./alert";
-export default function Main (){
+export default function Main(){
     return <main>
         <section id="page-content">
             <h2> --&gt; Contente goes here! &lt;--
                 <>
-                <Alert type="danger">Contenuto di Testo</Alert>
+                <Alert type="success">Contenuto</Alert>
                 </> 
             </h2>
         </section>
