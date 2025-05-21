@@ -69,8 +69,6 @@ li{
   border-radius: 10px;
   background-color: #9afcb6;
 }
-
-
 #page-content h2{
   color: white;
   margin-left: 180px;
@@ -112,7 +110,7 @@ li{
 
 /* PAGE FOOTER */
 #page-info{
-  background-image: url("/public/footer-bg.jpg");
+  background-image: url("/footer-bg.jpg");
   height: 305px;
 }
 #page-info  .row{
