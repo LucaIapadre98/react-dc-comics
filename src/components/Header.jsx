@@ -5,34 +5,34 @@ export default function Header () {
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Link 1</a>
+                        <a href="#">CHARACTERS</a>
                     </li>
                     <li className="active">
-                        <a href="">Link 2</a>
+                        <a href="">COMICS</a>
                     </li>
                     <li>
-                        <a href="#">Link 3</a>
+                        <a href="#">MOVIES</a>
                     </li>
                     <li>
-                        <a href="#">Link 4</a>
+                        <a href="#">TV</a>
                     </li>
                     <li>
-                        <a href="#">Link 5</a>
+                        <a href="#">GAMES</a>
                     </li>
                     <li>
-                        <a href="#">Link 6</a>
+                        <a href="#">COLLECTIBLES</a>
                     </li>
                     <li>
-                        <a href="#">Link 7</a>
+                        <a href="#">VIDEOS</a>
                     </li>
                     <li>
-                        <a href="#">Link 8</a>
+                        <a href="#">FANS</a>
                     </li>
                     <li>
-                        <a href="#">Link 9</a>
+                        <a href="#">NEWS</a>
                     </li>
                     <li>
-                        <a href="#">Link 10</a>
+                        <a href="#">SHOP</a>
                     </li>
                 </ul>
             </nav>
