@@ -7,7 +7,7 @@ export default function Main({ comics }){
             <section id="page-content">
             <>
                 <Alert type="info">
-                    Current Series
+                    CURRENT SERIES
                 </Alert>
             </> 
             </section> 

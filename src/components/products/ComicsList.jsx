@@ -10,6 +10,9 @@ export default function ComicsList ({ comics }){
                     ))}
                 </div>
             </div>
+            <div className="load">
+                <button>LOAD MORE</button>
+            </div>
         </section>
     );
 }
