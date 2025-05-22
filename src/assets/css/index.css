@@ -39,11 +39,16 @@ li{
 
 /* PAGE MAIN */
 #page-content{
-  background-color: black;
-  height: 100%;
+  background-image: url("./jumbotron.jpg");
+  background-position:initial;
+  height: 500px;
   margin: 10px 0 0 0;
   display: flex;
-  justify-content: left;
+}
+#page-content .alert{
+  margin-left: 100px;
+  margin-bottom: -10px;
+  margin-top: 490px;
 }
 #page-content .alert-info{
   color: black;
@@ -51,8 +56,7 @@ li{
   text-align: center;
   border: currentColor 2px solid;
   border-radius: 10px;
-  background-color: white;
-  margin-top: 10px;
+  background-color: white;  
 }
 #page-content .alert-danger{
   color: red;
@@ -106,6 +110,26 @@ li{
   color: white;
   margin-left: 180px;
 }
+
+#page-card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 400px ;
+  background-color: #1e1e1e;
+}
+#page-card .row{
+  display: flex;
+  padding:  10px 0;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#page-card .row .col-1-6{
+  width: calc(100% / 6);
+}
 #page-function{
   background-color: hsl(240, 95%, 68%);
   max-height: 100%;
@@ -146,7 +170,7 @@ li{
   background-image: url("/footer-bg.jpg");
   height: 305px;
 }
-#page-info  .row{
+#page-info .row{
   display: flex;
   padding:  0;
   justify-content: space-around;

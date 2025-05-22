@@ -2,13 +2,63 @@ import Alert from "./alert";
 export default function Main(){
     return <main>
         <section id="page-content">
-            <h2> --&gt; Contente goes here! &lt;--
-                <>
+            <>
                 <Alert type="info">
                     Contenuto di Testo
                 </Alert>
-                </> 
-            </h2>
+            </> 
+        </section>
+        <section id="page-card">
+            <div className="row">
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+                <div className="col-1-6">
+                    <div className="card-image">foto</div>
+                    <div className="card-title">titolo</div>
+                </div>
+            </div>
         </section>
         <section id="page-function">
             <div className="row">
