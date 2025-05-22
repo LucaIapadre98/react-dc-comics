@@ -1,66 +1,18 @@
 import Alert from "./alert";
-export default function Main(){
-    return <main>
-        <section id="page-content">
+import ComicsList from "./products/ComicsList";
+
+export default function Main({ comics }){
+    return (
+        <main>
+            <section id="page-content">
             <>
                 <Alert type="info">
-                    Contenuto di Testo
+                    Current Series
                 </Alert>
             </> 
-        </section>
-        <section id="page-card">
-            <div className="row">
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-                <div className="col-1-6">
-                    <div className="card-image">foto</div>
-                    <div className="card-title">titolo</div>
-                </div>
-            </div>
-        </section>
-        <section id="page-function">
+            </section> 
+            <ComicsList comics={comics} />
+            <section id="page-function">
             <div className="row">
                 <div className="col-1-5">
                     <div className="card-image">
@@ -103,6 +55,7 @@ export default function Main(){
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+            </section>
+        </main>
+    );
 }
