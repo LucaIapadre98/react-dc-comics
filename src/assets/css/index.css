@@ -52,6 +52,7 @@ li{
   border: currentColor 2px solid;
   border-radius: 10px;
   background-color: white;
+  margin-top: 10px;
 }
 #page-content .alert-danger{
   color: red;
@@ -60,6 +61,7 @@ li{
   border: currentColor 2px solid;
   border-radius: 10px;
   background-color: #fc9a9a;
+   margin-top: 10px;
 }
 #page-content .alert-success{
   color: green;
@@ -68,6 +70,7 @@ li{
   border: currentColor 2px solid;
   border-radius: 10px;
   background-color: #9afcb6;
+  margin-top: 10px;
 }
 .messagge-error{
   color: red;
@@ -77,6 +80,7 @@ li{
   font-size: 17px;
   text-align: center;
   padding: 5px;
+  margin-top: 10px;
 }
 .text-error{
   color: red;
@@ -86,6 +90,7 @@ li{
   font-size: 18px;
   text-align: center;
   padding: 5px;
+   margin-top: 10px;
 }
 .text-error .ul-error{
   text-align: left;
